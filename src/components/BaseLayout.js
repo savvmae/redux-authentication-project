@@ -13,7 +13,6 @@ class BaseLayout extends Component {
     handleLogout = (event) => {
         event.preventDefault();
         this.props.logout();
-        window.location.pathname = '/'
     }
     render() {
         return (
